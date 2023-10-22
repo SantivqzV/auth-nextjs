@@ -73,7 +73,7 @@ export default function LoginPage(){
             focus:border-blue-500">{buttonDisabled ? "No login": "Log in"}</button>
             
             <Link href="/signup">Visit Signup page</Link>
-            <Link href="/resetEmail">Visit Reset Password page</Link>
+            <Link href="/sendResetLink">Visit Reset Password page</Link>
         </div>
     )
 }
